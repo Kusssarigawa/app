@@ -7,7 +7,7 @@ def index(request) -> HttpResponse:
      categories =Categories.objects.all()
      context={
     'title':'Home',
-    'content':'Main Stranica-Home',
+    'content':'Kusssarigawa Home 🚚 ⛩ ',
     'categories':categories,
     }
      return render(request,'main/index.html',context)
